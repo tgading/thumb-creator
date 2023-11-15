@@ -1,0 +1,38 @@
+{
+    "name": "tossn/thumb-creator",
+    "description": "Create thumbs of images",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thorsten Gading",
+            "email": "info@tossn.de"
+        }
+    ],
+    "keywords": [
+        "php",
+        "thumbs",
+        "thumb",
+        "images",
+        "image",
+        "create",
+        "render",
+        "imagick",
+        "imagemagick"
+    ],
+    "require": {
+        "php": "^8.1",
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Tossn\\ThumbCreator\\": "src"
+        }
+    },
+    "autoload-dev": {
+    },
+    "config": {
+        "store-local": true
+    }
+}
